@@ -18,7 +18,7 @@ Non-Periodic Boundary conditions are considered.
 
 The following plots show the scalabilty that can be achieved using MPI and OpenMP.
 
-![processvstime](https://github.com/hariprasadr1hp/GameofLife3D_HPC/plots/processvstime.png)
+![gridvstime](https://github.com/hariprasadr1hp/GameofLife3D_HPC/plots/gridvstime.png)
 
 ![processvstime](https://github.com/hariprasadr1hp/GameofLife3D_HPC/plots/processvstime.png)
 
