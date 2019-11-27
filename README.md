@@ -18,9 +18,9 @@ Non-Periodic Boundary conditions are considered.
 
 The following plots show the scalabilty that can be achieved using MPI and OpenMP.
 
-![gridvstime](https://github.com/hariprasadr1hp/GameofLife3D_HPC/plots/gridvstime.png)
+![gridvstime](https://github.com/hariprasadr1hp/GameofLife3D_HPC/blob/master/plots/gridvstime.png)
 
-![processvstime](https://github.com/hariprasadr1hp/GameofLife3D_HPC/plots/processvstime.png)
+![processvstime](https://github.com/hariprasadr1hp/GameofLife3D_HPC/blob/master/plots/processvstime.png)
 
 
 The communication between grid chunks is handled using MPI and the convolutional operation using OpenMP.
