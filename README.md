@@ -1,3 +1,5 @@
+# Game of Life (Hybrid OpenMP/MPI)
+
 A C++ program to simulate the cellular automaton in three dimensions. Finds the best scalability (between OpenMP and MPI) that can be achieved.
 
 In the standard game, cells that have exactly F<sub>l</sub> = F<sub>u</sub> = 6 neighbors are born in the next time step.
@@ -11,6 +13,14 @@ Cells that have more than E<sub>u</sub> = 7 neighbors, will die before the next 
 The game, if uses the above rule, then 
 (E<sub>l</sub>,E<sub>u</sub>,F<sub>l</sub>,F<sub>u</sub>) = (5,7,6,6)
 
+Non-Periodic Boundary conditions are considered.
 
-For the boundary of the playing field, different types of behavior can be considered. Either the boundary consists of dead cells (simpler) or the board is made circular (periodic boundary conditions).
 
+The following plots show the scalabilty that can be achieved using MPI and OpenMP.
+
+![processvstime](https://github.com/hariprasadr1hp/GameofLife3D_HPC/plots/processvstime.png)
+
+![processvstime](https://github.com/hariprasadr1hp/GameofLife3D_HPC/plots/processvstime.png)
+
+
+The communication between grid chunks is handled using MPI and the convolutional operation using OpenMP.

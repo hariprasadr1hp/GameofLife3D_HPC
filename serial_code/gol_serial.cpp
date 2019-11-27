@@ -5,7 +5,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <time.h>
-#include "lib3D.h"
+#include "libgol_serial.hpp"
 
 using namespace std;
 

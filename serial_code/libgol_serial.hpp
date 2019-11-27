@@ -1,5 +1,5 @@
-#ifndef LIB3D_H
-#define LIB3D_H
+#ifndef LIBGOL_SERIAL_H
+#define LIBGOL_SERIAL_H
 #include <fstream>
 #include <iostream>
 #include <math.h>
@@ -155,4 +155,4 @@ class Generate
 		}
 };
 //#############################################################################
-#endif // LIB3D_H
+#endif //LIBGOL_SERIAL_H
